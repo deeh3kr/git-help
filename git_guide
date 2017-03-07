@@ -1,0 +1,34 @@
+git config --global http.proxy "172.16.24.3:3128"
+git config --global https.proxy "172.16.24.3:3128"
+git config --global user.name "deeh3kr"
+copying project on git acc == forking
+copying in leppy==cloning
+git add * //add multiple files in staging area instread of using 'git add filename'
+
+
+commands for github:-
+git config --global user.name "deeh3kr"  //only once in a pc
+git config --global user.email "deepanshu111197@gmail.com"  //only once in a pc
+
+get into working project directory //cd Desktop/wiki
+
+git init  //initialize git repository for that particular project
+1. git status  //tells current status of files(should red initially)
+2. git add filename  //add filename file in git, do it for all files, in red
+or
+   git add *  //if red files are more than one, it adds all files at once
+3. git status  //now all files will be in green
+4. git commit -m "comment related to your recently done work" //yes, use "" commas
+5. git log //tell logs of git, issue a ssh hex key to every comment
+
+after making any type of modification, repeat 1 to 5 steps
+
+now, create a new repository on git hub site, copy generated link
+
+git remote add name link  //name is a name for project, link is copied link
+git remote -v  //status  of remote git
+6. git push name master  //again this name is same as above name
+
+
+after doning any type of modification, repeat 1 to 5 and 6.
+
