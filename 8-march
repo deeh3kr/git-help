@@ -1,0 +1,30 @@
+forking--> get repo from anther git acc to my git acc
+cloning--> git to leppy
+
+fork wanted project, from fork option
+copy cloning link, from green link
+git clone copied-link
+get yourself into working directory
+git remote -v
+//origin should be appeared
+git remote add teamexe https://github.com/Teamexe/Team-Exe-website.git//actual project link from clone green button
+git remote -v
+//teamexe should be appeared along with origin
+//meanwhile we are making modification in project, project may have got some new commit, so to update our project file, we should pull
+git pull teamexe master
+git log
+//do modifications till commit
+git log
+//now my commmit should also appear along with my teammates
+git push name master   //name = origin  it is by default
+press new pull request button //to add my work to main project
+now, owner needs to merge our work or close that.
+
+
+learn branching concepts
+
+****************************************************************
+
+make deeh3kr.github.io named repo
+go to setting->choose theme-->select theme,
+now go to this repo and start making your web site
